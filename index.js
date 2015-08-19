@@ -1,4 +1,4 @@
-var animation = false;
+var animation = true;
 
 $(document).ready(function () {
 	if(animation){
