@@ -17,7 +17,6 @@ $(document).ready(function () {
 				$("#welcome-typewriter-text-small").addClass("visible");
 				
 				//animate menu items/rest of home page
-				$("#homepage-ui-elements").addClass("visible");
 			}, 4500);
 
 		}, 1000);

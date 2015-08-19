@@ -67,29 +67,19 @@
 #homepage-ui-elements {
 	position: absolute;
 	left: 10%;
-	top: -100%;
+	top: 50%;
 	font-size: 18px;
-	transition: top 0.5s;
-    -moz-transition: top 0.5s;
-    -webkit-transition: top 0.5s;
-    -o-transition: top 0.5s;
 }
 
-#homepage-ui-elements.visible {
-	top: 50%;
-}
 
 #homepage-material-container {
 	background: #FDFDFD;
 	color: black;
 	position: relative;
-	height: 200px;
+	height: 150px;
 	margin-right: 20px;
 	margin-left: 0px;
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
-}
-
-#homepage-material-container.visible {
 }
 
 #homepage-material-container-text {
@@ -102,7 +92,23 @@
 #social-icons-container{
 	position: relative;
 	top: 20px;
+	left: 35px;
+}
+
+#social-icons-links{
+	position: relative;
 	left: 20px;
+}
+
+#project-icons-container{
+	position: relative;
+	top: 20px;
+	left: 35px;
+}
+
+#project-icons-links{
+	position: relative;
+	left: 30px;
 }
 
 a{
