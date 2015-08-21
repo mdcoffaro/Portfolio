@@ -128,11 +128,18 @@
 }
 .Chevron:before{
     top:0;
-    border-top-color:#000000;/*Chevron Color*/
+    border-top-color:#000000;
 }
 .Chevron:after{
-    top:-2px;/*adjust thickness*/
-    border-top-color:#fafafa;/*Match background colour*/
+    top:-2px;
+    border-top-color:#fafafa;
+}
+
+#homepage-mobile-1{
+	display: block;
+	margin: auto;
+	position: relative;
+	height: 600px;
 }
 
 a{
@@ -140,10 +147,10 @@ a{
 }
 
 section {
-    padding: 100px 0;
     display: table;
     width: 100vw;
     height: 100vh;
+    background-color: #fafafa;
 }
 
 
