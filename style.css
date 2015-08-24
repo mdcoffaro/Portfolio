@@ -10,7 +10,6 @@
 #welcome-background {
     background-color: #fafafa;
     color: #FFF;
-    font-family: "Roboto", sans-serif;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -44,6 +43,7 @@
 	left: 10vw;
 	top: 10vh;
 	font-size: 32px;
+	font-weight: 100 ;
 	/*margin-top: -30px;
 	margin-left: -91px;
 	width: 100%;
@@ -131,7 +131,7 @@
     border-top-color:#000000;
 }
 .Chevron:after{
-    top:-2px;
+    top:-1px;
     border-top-color:#fafafa;
 }
 
@@ -140,6 +140,30 @@
 	margin: auto;
 	position: relative;
 	height: 600px;
+}
+
+#project-title{
+	font-size: 24pt;
+}
+
+#project-description{
+	font-size: 20pt;
+}
+
+#other-text{
+	font-size: 24pt;
+}
+
+#other-link{
+	font-size: 18pt;
+}
+
+h1{
+	font-weight: 100;
+}
+
+p{
+	font-family: "Roboto", sans-serif;
 }
 
 a{
