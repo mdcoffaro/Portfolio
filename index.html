@@ -16,20 +16,21 @@
 			<!-- Custom Font Roboto -->
 			<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+			<script src="jquery.panelSnap.js"></script>
+			<script>
+      			jQuery(function($) {
+        			$('body').panelSnap();
+      			});
+    		</script>
 			<script src="typed.js"></script>
 			<script src="index.js"></script>
 		</head>
 
 		<body>
-			<h1>Site Content Here :^)</h1>
 
 			<nav>
 			</nav>
-
-			<div class="container" id="welcome-background-screen">
-			</div>
-
 			<section id="home">
 				<div class="container" id="welcome-background">
 					<img src="public/img/background2.png" class="img-responsive" alt="Homepage background image" id="homepage-background-image">
@@ -206,6 +207,6 @@
 					</div>
 					<div class="col-md-1"></div>
 				</div>
-			</section>			
+			</section>		
 		</body>
 	</html>
