@@ -162,6 +162,10 @@
 	max-width: 1000px;
 }
 
+#half-width{
+	width: 50%;
+}
+
 h1{
 	font-weight: 100;
 }
