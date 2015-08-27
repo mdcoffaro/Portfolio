@@ -17,13 +17,25 @@
 			<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		</head>
 
 		<body>
-			<h1 class="center">Split!</h1>
-			<ul class="nav nav-tabs">
-  				<li role="presentation" class="active" id="half-width"><a href="#">Product</a></li>
-  				<li role="presentation" id="half-width"><a href="#">Process</a></li>
-			</ul>
+			<h1 id="center">Split!</h1>
+			<div class="container">
+				<ul class="nav nav-tabs" id="project-details-menu">
+					<li class="active" id="half-width"><a data-toggle="tab" href="#product">Product</a></li>
+				    <li id="half-width"><a data-toggle="tab" href="#process">Process</a></li>
+				</ul>
+
+				<div class="tab-content">
+				    <div id="product" class="tab-pane fade in active">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				    </div>
+				    <div id="process" class="tab-pane fade">
+				        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				    </div>
+				</div>
+			</div>
 		</body>
 	</html>
