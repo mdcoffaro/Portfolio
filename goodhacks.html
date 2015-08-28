@@ -3,7 +3,7 @@
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-			<meta name="description" content="Personal blog for designer and developer Michael Coffaro in Stanford's CS147 course">
+			<meta name="description" content="Personal site for designer and developer Michael Coffaro's GoodHacks web site design project">
 	    	<meta name="author" content="Michael Coffaro">
 
 			<title>Michael Coffaro - GoodHacks</title>
@@ -17,9 +17,62 @@
 			<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		</head>
 
 		<body>
-			<h1 class="center">GoodHacks</h1>
+			<h1 id="center">GoodHacks</h1>
+			<div class="container">
+				<ul class="nav nav-tabs" id="project-details-menu">
+					<li class="active" id="half-width"><a data-toggle="tab" href="#product">Product</a></li>
+				    <li id="half-width"><a data-toggle="tab" href="#process">Process</a></li>
+				</ul>
+
+				<div class="tab-content">
+				    <div id="product" class="tab-pane fade in active">
+				        <h2>Check out the InVision prototype of what I wanted Split! to be.</h2>
+				        <p>Invision goes here (Y)</p>
+				    </div>
+				    <div id="process" class="tab-pane fade">
+				    	<h2> A (Brief) Introduction to Objective-C and the Iterative Nature of Design </h2>
+				        <div class="row">
+				        	<div class="col-md-4">
+				        		<h3>The Idea</h3>
+				        	</div>
+				        	<div class="col-md-8">
+				        		<p>While out to dinner several times during Summer 2014, I thought a lot about how annoying splitting checks among friends can be. I had just started using <a href="https://venmo.com/" target="_blank" style="target-new: tab;"> Venmo </a> and <strong>saw an opportunity to make the process of splitting a check way easier. </strong> My friend and roommate at the time Gary and I decided to try our hand at learning Objective-C and building out our idea.</p>
+				        	</div>
+				        </div>
+
+				        <div class="row">
+				        	<div class="col-md-4">
+				        		<h3>Iterative Design</h3>
+				        	</div>
+				        	<div class="col-md-8">
+				        		<div>
+				        			<p>It needed to be fast, simple and clutter free. Early drawings of Split! introduced me to some of the challenges that come along with mobile: lworking with very little screen real estate and while needing to communicate a lot of information, reduced context, relying on gestures and a plethora of other considerations.</p>
+				        		</div>
+				        		<p>an image goes here :^)</p>
+				        		<div>
+				        			<p>Learning Objective-C was a cool experience, and I wanted to make sure that all of the interactions were smooth and made sense before putting effort into the aesthetic. Eventually my head was moving faster than I could code, and I started putting together mocks using Sketch and InVision so I could more quickly iterate and figure out how to build the best experience for Split!</p>
+				        		</div>
+				        		<p>another image goes here :^^)</p>
+				        		<div>
+				        			<p>After several iterations, I felt that I had designed an experience that let users effortlessly break down checks, split them up and clearly understand all of the information associated with the participants and payments in each transaction. I designed support for OCR and Venmo integration and was very happy with the finished prototype -- it felt like a product that could offer a delightful experience when I needed it, serve it's purpose and be out of the way in a flash.</p>
+				        		</div>
+				        	</div>
+				        </div>
+
+						<div class="row">
+				        	<div class="col-md-4">
+				        		<h3>Takeaways</h3>
+				        	</div>
+				        	<div class="col-md-8">
+				        		<p>Although we never really put time into building a production-ready version of Split! once school started it was a great design exercise for me that summer as I was just beginning my adventure into the Product Design major at Stanford. I learned a lot about how iterative of a process design is, some Objective-C and most importantly to always focus on the end user. I'm hoping to actually turn this design into a function app in Swift when I take CS193P (iPhone Application Programming) during Winter 2016. </p>
+				        	</div>
+				        </div>				        
+				    </div>
+				</div>
+			</div>
 		</body>
 	</html>
